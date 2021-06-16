@@ -3,8 +3,8 @@ import request from 'supertest';
 import { expect } from 'chai';
 
 describe('express', function () {
-  after(() => {
-    server.close()
+  after((done) => {
+    server.close(done);
   })
 
   it('should respond with 200 for /status', async () => {

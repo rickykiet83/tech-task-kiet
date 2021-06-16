@@ -1,9 +1,9 @@
-import chai from 'chai'
-import sinonChai from 'sinon-chai'
-import chaiAsPromised from 'chai-as-promised'
+import chai from 'chai';
+import sinonChai from 'sinon-chai';
+import chaiAsPromised from 'chai-as-promised';
 
-process.env.NODE_ENV = 'DEVELOPMENT'
+process.env.NODE_ENV = 'DEVELOPMENT';
 
-chai.should()
-chai.use(sinonChai)
-chai.use(chaiAsPromised)
+chai.should();
+chai.use(sinonChai);
+chai.use(chaiAsPromised);
